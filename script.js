@@ -21,8 +21,8 @@ Highcharts.chart('container1', {
 	},
 	xAxis: {
 		type: 'datetime',
-		min: Date.UTC(2022, 4, 8),
-		max: Date.UTC(2022, 4, 14),
+		min: Date.UTC(2025, 4, 8),
+		max: Date.UTC(2025, 4, 14),
 		tickInterval: 24 * 3600 * 1000,
 		labels: {
 			format: '{value:%m/%e/%y}',
@@ -43,7 +43,7 @@ Highcharts.chart('container1', {
 	},
 	plotOptions: {
 		area: {
-			pointStart:Date.UTC(2022,4,8,0,0,0,0),  
+			pointStart:Date.UTC(2025,4,8,0,0,0,0),  
 			pointInterval: 24 * 3600 * 10, // one day
 			marker: {
 				enabled: false,
