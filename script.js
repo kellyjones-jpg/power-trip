@@ -39,7 +39,7 @@ Highcharts.chart('container1', {
 		}
 	},
 	tooltip: {
-		pointFormat: '<b>{point.y:,.0f}</b>'
+		pointFormat: '<b>{point.y:,.0f}</b> kWh'
 	},
 	plotOptions: {
 		area: {
